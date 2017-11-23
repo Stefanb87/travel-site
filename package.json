@@ -3,6 +3,15 @@
   "version": "1.0.0",
   "dependencies": {
     "jquery": "^3.2.1",
-    "normalize.css": "^7.0.0"
+    "normalize.css": "^7.0.0",
+    "normalize.less": "^1.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "browserslist": "last 2 versions",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.2",
+    "gulp-watch": "^4.3.11",
+    "less-plugin-autoprefix": "^1.5.1"
   }
 }
