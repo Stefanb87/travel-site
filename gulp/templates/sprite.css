@@ -1,0 +1,16 @@
+/* Do not edit _sprite.less directly as it is generated automatically by Gulp task icons */
+
+{{#shapes}}
+
+    {{#first}}
+        .icon {
+            background-image: url('/assets/images/sprites/{{{sprite}}}');
+        }
+    {{/first}}
+
+    .icon--{{base}} {
+        width: {{width.outer}}px;
+        height: {{height.outer}}px;
+        background-position: {{position.relative.xy}};
+    }
+{{/shapes}}

@@ -9,8 +9,11 @@
   "devDependencies": {
     "browser-sync": "^2.18.13",
     "browserslist": "last 2 versions",
+    "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-less": "^3.3.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-svg-sprite": "^1.3.7",
     "gulp-watch": "^4.3.11",
     "less-plugin-autoprefix": "^1.5.1"
   }
