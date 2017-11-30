@@ -912,6 +912,7 @@ a {
   padding: 10px 0;
   z-index: 2;
   width: 100%;
+  position: fixed;
   transition: background-color 0.3s ease-out;
 }
 .site-header--is-expanded {
@@ -920,6 +921,9 @@ a {
 @media screen and (min-width: 800px) {
   .site-header {
     background: rgba(47, 85, 114, 0.3);
+  }
+  .site-header--dark {
+    background-color: rgba(23, 51, 72, 0.85);
   }
 }
 @media screen and (min-width: 800px) {
@@ -937,12 +941,19 @@ a {
           transform-origin: 50% 0%;
   background-color: #2f5572;
   padding: 25px 36px;
+  transition: -webkit-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
 }
 @media screen and (min-width: 800px) {
   .site-header__logo {
     left: auto;
     -webkit-transform: translateX(0%);
             transform: translateX(0%);
+  }
+  .site-header--dark .site-header__logo {
+    -webkit-transform: scale(0.58);
+            transform: scale(0.58);
   }
 }
 .site-header__logo__graphic {
