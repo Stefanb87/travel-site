@@ -560,7 +560,7 @@ a {
 }
 @media screen and (min-width: 1010px) {
   .page-section--testimonials.lazyloaded {
-    background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
+    background: url('../../assets/images/testimonials-bg.jpg') top center no-repeat;
     background-size: cover;
   }
 }
@@ -827,7 +827,7 @@ a {
 }
 /* Do not edit _sprite.less directly as it is generated automatically by Gulp task icons */
 .icon {
-  background-image: url('/assets/images/sprites/sprite-69f19c2e.svg');
+  background-image: url('../../assets/images/sprites/sprite-69f19c2e.svg');
 }
 .icon--clear-view-escapes {
   width: 142.4px;
